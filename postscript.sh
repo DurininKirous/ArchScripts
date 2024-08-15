@@ -17,4 +17,8 @@ sudo sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.s
 yay -S wget
 yay -S curl
 sudo wget -O $ZSH_CUSTOM/themes/common.zsh-theme https://raw.githubusercontent.com/jackharrisonsherlock/common/master/common.zsh-theme
-sed -i '' 's/^ZSH_THEME="robbyrussel"$/ZSH_THEME="common"/g' ~/.zshrc
+sed -i 's/^ZSH_THEME="robbyrussel"$/ZSH_THEME="common"/g' ~/.zshrc
+sudo yay -S telegram-desktop
+sudo yay -S firefox
+sudo yay -S terminator
+sudo yay -S vim
